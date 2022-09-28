@@ -1998,7 +1998,7 @@ var staticRenderFns = [function () {
 
   return _c("div", {
     staticClass: "container"
-  }, [_c("h1", [_vm._v("Hello Laravel + Vue")]), _vm._v(" "), _c("div", {
+  }, [_c("h1", [_vm._v("Hello Laravel + Vue !!!222")]), _vm._v(" "), _c("div", {
     staticClass: "row justify-content-center"
   }, [_c("div", {
     staticClass: "col-md-8"
