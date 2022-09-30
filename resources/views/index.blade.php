@@ -67,7 +67,7 @@
     <body>
         <div id="app">
             <test-component></test-component>
-            <!-- <example-component></example-component> -->
+            <example-component></example-component> 
         </div>
         <script src="./js/app.js"></script>
         <div class="flex-center position-ref full-height">
@@ -87,7 +87,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Vue vs Laravel
+                    Vue and Laravel
                 </div>
             </div>
         </div>
