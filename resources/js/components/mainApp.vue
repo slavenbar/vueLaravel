@@ -1,17 +1,24 @@
 <template>
     <div class="container">
         <div class="row justify-content-center">
-        <h2>I am TEST App</h2>
+        <h2>I am Main App</h2>
         </div>
         <div>
-            <b-table table-dark striped hover :items="items" :fields="fields"></b-table>
+            <b-table striped hover :items="items" :fields="fields"></b-table>
         </div>
         <br>
+        <div class="d-grid gap-2 col-2 mx-auto">
+            <button class="btn btn-primary" type="button">Button</button>
+        </div>
+        <br>
+        <div>
+            <testComponent></testComponent>
         </div>
     </div>
 </template>
 
 <script>
+import testComponent from "./testComponent.vue"
     export default {
 
         data() {
@@ -25,6 +32,10 @@
                     { isActive: true, age: 38, first_name: 'Jami', last_name: 'Carney' }
                 ]
             }
+        },
+
+        components: {
+            testComponent
         },
 
         mounted() {
