@@ -1,8 +1,11 @@
 window._ = require('lodash');
-import Vue from 'vue'
-import BootstrapVue from 'bootstrap-vue'
+//import Vue from 'vue'
+//import BootstrapVue from 'bootstrap-vue'
 
-Vue.use(BootstrapVue)
+//Vue.use(BootstrapVue)
+
+//import 'bootstrap/dist/css/bootstrap.min.css';
+//import 'bootstrap-table/dist/bootstrap-table.min.css';
 
 /**
  * We'll load jQuery and the Bootstrap jQuery plugin which provides support

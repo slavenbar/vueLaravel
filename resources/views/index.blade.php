@@ -8,14 +8,17 @@
         <title>Vue$$$Laravel</title>
 
         <!-- Fonts -->
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
+        <!-- <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet"> -->
+
+        <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUIyJ" crossorigin="anonymous"> -->
+
 
         <!-- Styles -->
-        <style>
+        <!-- <style>
             html, body {
                 background-color: #fff;
                 color: #ff0000;
-                font-family: 'Nunito', sans-serif;
+                font-family: Verdana, Arial, Tahoma, Serif;
                 font-weight: 200;
                 height: 100vh;
                 margin: 0;
@@ -62,14 +65,14 @@
             .m-b-md {
                 margin-bottom: 30px;
             }
-        </style>
+        </style> -->
     </head>
     <body>
         <div id="app">
             <test-component></test-component>
-            <example-component></example-component> 
+            <!-- <example-component></example-component> --> 
         </div>
-        <script src="./js/app.js"></script>
+        <script src="{{mix('/js/app.js')}}"></script>
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
