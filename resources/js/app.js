@@ -12,6 +12,9 @@ import 'bootstrap/dist/css/bootstrap.css'
 import 'bootstrap-vue/dist/bootstrap-vue.css'
 Vue.use(BootstrapVue)
 
+//import VueRouter from 'vue-router';
+//import { createRouter, createWebHistory } from 'vue-router';
+//Vue.use(VueRouter);
 
 window.Vue = require('vue');
 //Vue.use(BootstrapVue);
@@ -27,14 +30,27 @@ window.Vue = require('vue');
 // const files = require.context('./', true, /\.vue$/i)
 // files.keys().map(key => Vue.component(key.split('/').pop().split('.')[0], files(key).default))
 // Здесь подключаем  Vue компонеты к JS
-Vue.component('example-component', require('./components/ExampleComponent.vue').default);
-Vue.component('test-component', require('./components/testComponent.vue').default);
-Vue.component('main-app', require('./components/mainApp.vue').default);
+//Vue.component('example-component', require('./components/ExampleComponent.vue').default);
+//Vue.component('my-app', require('./components/myApp.vue').default);
+//Vue.component('main-header', require('./components/mainHeader.vue').default);
+//Vue.component('main-header', require('./components/mainHeader.vue').default);
+
 /**
  * Next, we will create a fresh Vue application instance and attach it to
  * the page. Then, you may begin adding components to this application
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
+//import { createRouter } from 'vue-router'
+
+// const routes = [
+//     { path: '/', component: require('./components/mainHeader.vue').default},
+//     { path: '/blog', component: require('./components/myApp.vue').default}
+// ]
+
+// const router = new VueRouter({
+//     routes: routes,
+//     mode: "history"
+// })
 
 const app = new Vue({
     el: '#app',
